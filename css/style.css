@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 80px;
+  width: 85%;
+  margin: 30px auto;
+  font-family: 'Roboto', sans-serif;
+  color: #8B959E;
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #8B959E;
+}
+span {
+  cursor: pointer;
+}
+
+.header-left {
+  float: left;
+  height: 100%;
+  width: 30%;
+}
+
+img {
+  height: 40px;
+  vertical-align: middle;
+}
+
+.header-left li {
+  display: inline-block;
+  line-height: 80px;
+  margin-right: 40px;
+}
+.header-left a:hover {
+  color: black;
+}
+#personale {
+  color: black;
+  font-weight: bold;
+}
+
+.header-right {
+  float: left;
+  height: 100%;
+  width: 70%;
+  text-align: right;
+}
+
+.list-right li {
+  display: inline-block;
+  line-height: 80px;
+  margin-left: 40px;
+}
+.list-right li span:hover {
+  color: black;
+}
+.list-right > li > a {
+  color: black;
+  font-weight: bold;
+  padding: 12px 20px;
+  border-radius: 10px;
+  background-color: #EDEDEF;
+}
+.list-right > li > a:hover {
+  background-color: #DADBDB;
+}
+
+.list-right #app {
+  color: white;
+  font-weight: bold;
+  padding: 15px 20px;
+  border-radius: 10px;
+  background: black;
+}
+.list-right #app:hover {
+  background-color: #3E4043;
+}
+
+.position-relative {
+  position: relative;
+}
+.dropdown {
+  width: 190px;
+  position: absolute;
+  top: 60px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  text-align: left;
+  padding: 15px;
+  display: none;
+}
+.dropdown li {
+  display: block;
+  line-height: normal;
+  margin-left: 0px;
+  padding: 15px 0;
+}
+.dropdown li a:hover {
+  color: black;
+}
