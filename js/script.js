@@ -2,35 +2,17 @@ $(document).ready(
 
   function() {
 
-    $("#abbonamenti").mouseenter(
+    $(".position-relative").mouseenter(
       function() {
-        $(".abbonamenti").toggle();
+        $(this).children(".dropdown").toggle();
       }
-    ).mouseleave(
-      function() {
-        $(".abbonamenti").toggle();
-      }
-    )
+    );
 
-    $("#chi-siamo").mouseenter(
+    $(".position-relative").mouseleave(
       function() {
-        $(".chi-siamo").toggle();
+        $(this).children(".dropdown").toggle();
       }
-    ).mouseleave(
-      function() {
-        $(".chi-siamo").toggle();
-      }
-    )
-
-    $("#aiuto").mouseenter(
-      function() {
-        $(".aiuto").toggle();
-      }
-    ).mouseleave(
-      function() {
-        $(".aiuto").toggle();
-      }
-    )
+    );
 
   }
 
