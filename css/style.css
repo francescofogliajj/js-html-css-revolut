@@ -100,6 +100,7 @@ img {
   border-radius: 10px;
   background-color: white;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  /* filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.5)); */
   text-align: left;
   padding: 15px;
   display: none;
@@ -113,3 +114,14 @@ img {
 .dropdown li a:hover {
   color: black;
 }
+
+/* .dropdown::before {
+  position: absolute;
+  top: -10px;
+  left: 20px;
+  content: "";
+  height: 20px;
+  width: 20px;
+  background-color: white;
+  transform: rotate(45deg);
+} */
